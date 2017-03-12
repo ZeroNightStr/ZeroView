@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <com.fanqie.zeroratingstart.ZeroRatingBar
+        android:id="@+id/ratingstar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:alliconnum="5"
+        custom:iconshownum="3"
+        custom:iconshow="@drawable/star"
+        custom:iconbackground="@drawable/star_display"
+        custom:iconsize="30dp"
+        custom:iconmargin="5dp"
+        custom:isClick="true"/>
+
+</LinearLayout>
